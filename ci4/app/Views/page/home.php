@@ -1,8 +1,8 @@
-<div class="page-content">
+<div class="page-content page-home">
     <div class="container-lg">
         <div class="video-wrap">
             <div class="video invisible">
-                <video class="" autoplay id="home_video" muted>
+                <video class="" autoplay id="home_video" muted loop>
                     <source src="<?= base_url('/assets/video/home.mov')?>" type="video/mp4">
                 </video>
             </div>

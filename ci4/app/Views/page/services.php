@@ -3,8 +3,10 @@
         <h1 class="page-title">Services</h1>
         <div class="service-list">
             <div class="service-wrap">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">ASMS</h3>
+                <div class="service-wrap-img-title">
+                    <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                    <h3 class="service-name">ASMS</h3>
+                </div>
                 <div class="service-desc">
                     Momentum Biotechnologies specializes in high throughput affinity selection mass spectrometry (ASMS) screens using the Automated Ligand Identification System (ALIS). ALIS/ASMS offers several distinct advantages over legacy HTS methods:<br><br>
                      • ALIS/ASMS is binding site agnostic, enabling clients to identify potential leads acting through a variety of mechanisms, including degradation and interruption of protein-protein or protein-oligonucletide interactions.<br>
@@ -22,8 +24,10 @@
                 </div>
             </div>
             <div class="service-wrap">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">Covalent Binding Assay</h3>
+                <div class="service-wrap-img-title">
+                    <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                    <h3 class="service-name">Covalent Binding Assay</h3>
+                </div>
                 <div class="service-desc">
                 Momentum Biotechnologies developed a covalent binding assay that enables screening small molecules capable of covalently modifying protein targets.<br>
                  • Throughput? <br>
@@ -33,8 +37,10 @@
                 </div>
             </div>
             <div class="service-wrap">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">ICP-MS</h3>
+                <div class="service-wrap-img-title">
+                    <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                    <h3 class="service-name">ICP-MS</h3>
+                </div>
                 <div class="service-desc">
                 Momentum Biotechnologies offers ICP-MS analysis for several applications depending on the needs of your specific program. In addition to routine testing for trace metals in CGT and biologics growth media, Momentum has also used ICP-MS to quantify biomarkers of response for rare diseases (Ex. Wilson’s Disease) and to optimize lipid nanoparticles using a metal biomarker model system.<br><br>
                 We understand that ICP-MS results are crucial to go-forward decision making in CGT and biologics development, so we strive to turn around data as fast as possible. Same day data delivery may be possible with courier delivered samples to our Billerica location only a half hour from downtown Boston/Cambridge.<br><br>
@@ -43,8 +49,10 @@
                 </div>
             </div>
             <div class="service-wrap">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">LNP Characterization</h3>
+                <div class="service-wrap-img-title">
+                    <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                    <h3 class="service-name">LNP Characterization</h3>
+                </div>
                 <div class="service-desc">
                 Momentum Biotechnologies offers a suite of lipid nanoparticle characterization services and is eager to work with clients on assay development to meet their evolving needs in a rapidly advancing field. Our expert team is ready to work alongside you to figure out what assays best suite your specific development project. <br><br>
                 Characterization services include:<br>
@@ -59,8 +67,10 @@
                 </div>
             </div>
             <div class="service-wrap">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">Small Molecule Biomarker Quantification</h3>
+                <div class="service-wrap-img-title">
+                    <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                    <h3 class="service-name">Small Molecule Biomarker Quantification</h3>
+                </div>
                 <div class="service-desc">
                 Momentum Biotechnologies offers a suite of viral vector characterization services to help our clients optimize and standardize their delivery vehicles. We understand most assays don’t fit off-the-shelf, so we are ready to tailor assays to best serve your specific development project. <br><br>
                 Characterization services include:<br>
@@ -73,8 +83,10 @@
                 </div>
             </div>
             <div class="service-wrap">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">Protein Quantification</h3>
+                <div class="service-wrap-img-title">
+                    <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                    <h3 class="service-name">Protein Quantification</h3>
+                </div>
                 <div class="service-desc">
                 Momentum Biotechnologies offers assay development and analysis services for targeted proteomics to enable our clients to quantify biomarkers and confirm action of identified leads.<br><br>
                 Once we decide on instrument list<br><br>

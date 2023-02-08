@@ -205,6 +205,7 @@ h1 {
 .service-desc {
     padding-top: 40px;
     border-top: 2px solid #B7B7B7;
+    text-align: left;
 }
 
 .platform-list {
@@ -530,4 +531,8 @@ button {
         height: 0px;
         padding-top: 100%;
     }
+}
+
+#toolbarContainer {
+    display: none;
 }

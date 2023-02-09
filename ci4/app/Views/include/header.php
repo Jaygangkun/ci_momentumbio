@@ -17,6 +17,9 @@
             <a class="menu-link" href="<?= base_url('/about')?>">about</a>
         </div>
         <div class="menu-link-wrap">
+            <a class="menu-link" href="<?= base_url('/media-kit')?>">media kit</a>
+        </div>
+        <div class="menu-link-wrap">
             <a class="menu-link" href="<?= base_url('/management')?>">management</a>
         </div>
         <div class="menu-link-wrap">
@@ -26,13 +29,13 @@
             <a class="menu-link" href="<?= base_url('/platforms')?>">platforms</a>
         </div>
         <div class="menu-link-wrap">
-            <a class="menu-link" href="<?= base_url('/publications')?>">publications</a>
+            <a class="menu-link" href="<?= base_url('/content/publications')?>">publications</a>
         </div>
         <div class="menu-link-wrap">
-            <a class="menu-link" href="<?= base_url('/news')?>">news</a>
+            <a class="menu-link" href="<?= base_url('/content/news')?>">news</a>
         </div>
         <div class="menu-link-wrap">
-            <a class="menu-link" href="<?= base_url('/blog')?>">blog</a>
+            <a class="menu-link" href="<?= base_url('/content/blog')?>">blog</a>
         </div>
         <div class="menu-link-wrap">
             <a class="menu-link" href="<?= base_url('/contact')?>">contact</a>

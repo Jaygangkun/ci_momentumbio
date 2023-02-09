@@ -88,4 +88,22 @@ class Page extends BaseController
 
         return view('layout', $data);
     }
+
+    public function media_kit()
+    {
+        $data = [
+            'page' => 'media-kit'
+        ];
+
+        return view('layout', $data);
+    }
+    
+    public function privacy_policy()
+    {
+        $data = [
+            'page' => 'privacy-policy'
+        ];
+
+        return view('layout', $data);
+    }
 }

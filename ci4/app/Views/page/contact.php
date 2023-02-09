@@ -1,7 +1,7 @@
-<div class="pt-30">
-    <div class="bg-gray pt-50">
-        <div class="container-lg">
-            <h1 class="fs-32">Contact</h1>
+<div class="page-content">
+    <div class="container-lg bg-gray">
+        <div class="px-50 py-50">
+            <h1 class="">Contact</h1>
             <div class="contact-wrap">
                 <div class="contact-wrap-left">
                     <div class="embeded-map-wrap">
@@ -10,7 +10,7 @@
                 </div>
                 <div class="contact-wrap-right">
                     <div class="contact-form">
-                        <p class="fs-20 my-0 pb-20">Fill out the form to get in touch with our team</p>
+                        <p class="fs-14 my-0 pb-20">Fill out the form to get in touch with our team</p>
                         <div class="mt-20">
                             <div class="form-input">
                                 <input type="text" placeholder="First name">

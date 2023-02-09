@@ -40,6 +40,8 @@ $routes->get('/publications', 'Page::publications');
 $routes->get('/news', 'Page::news');
 $routes->get('/blog', 'Page::blog');
 $routes->get('/contact', 'Page::contact');
+$routes->get('/media-kit', 'Page::media_kit');
+$routes->get('/privacy-policy', 'Page::privacy_policy');
 
 /*
  * --------------------------------------------------------------------

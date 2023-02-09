@@ -1,11 +1,13 @@
-<div class="header">
+<div class="header" data-aos="fade-in" data-aos-duration="1500">
     <div class="container-lg">
         <div class="header-wrap">
             <a href="<?= base_url('')?>">
-                <img class="header-logo-img visible-dark" src="<?= base_url('/assets/img/m-logo-white.png')?>">
-                <img class="header-logo-img visible-white" src="<?= base_url('/assets/img/m-logo-black.png')?>">
+                <img class="header-logo-img visible-dark" src="<?= base_url('/assets/img/momentum-logo-white.png')?>">
+                <img class="header-logo-img visible-white" src="<?= base_url('/assets/img/momentum-logo-black.png')?>">
             </a>
-            <span class="nav-hamburger" id="btn_nav_hamburger"></span>
+            <span class="nav-hamburger" id="btn_nav_hamburger">
+                <span></span>
+            </span>
         </div>
     </div>
 </div>

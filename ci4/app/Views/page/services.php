@@ -6,37 +6,31 @@
                 <div class="service-anchor-wrap">
                     <a class="service-anchor-link" href="#asms">
                         <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
-                        <p class="service-anchor-title">ASMS</a>
+                        <p class="service-anchor-title">Affinity Selection<br>Mass Spectrometry (“ASMS”)</p>
                     </a>
                 </div>
                 <div class="service-anchor-wrap">
                     <a class="service-anchor-link" href="#covalent_binding_assay">
                         <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
-                        <p class="service-anchor-title">Covalent Binding Assay</a>
+                        <p class="service-anchor-title">Covalent Binding<br> Assay</p>
                     </a>
                 </div>
                 <div class="service-anchor-wrap">
                     <a class="service-anchor-link" href="#icp_ms">
                         <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
-                        <p class="service-anchor-title">ICP-MS</a>
+                        <p class="service-anchor-title">Inductively Coupled Plasma<br>Mass Spectrometry (ICP-MS) </p>
                     </a>
                 </div>
                 <div class="service-anchor-wrap">
-                    <a class="service-anchor-link" href="#lnp_characterization">
+                    <a class="service-anchor-link" href="#ptency_assays">
                         <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
-                        <p class="service-anchor-title">LNP Characterization</a>
+                        <p class="service-anchor-title">Analyte/Biomarker Quantification <br>and Potency Assays</p>
                     </a>
                 </div>
                 <div class="service-anchor-wrap">
-                    <a class="service-anchor-link" href="#small_molecule_biomarker_quantification">
+                    <a class="service-anchor-link" href="#rapidfire-ms">
                         <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
-                        <p class="service-anchor-title">Small Molecule Biomarker Quantification</a>
-                    </a>
-                </div>
-                <div class="service-anchor-wrap">
-                    <a class="service-anchor-link" href="#protein_quantification">
-                        <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
-                        <p class="service-anchor-title">Protein Quantification</a>
+                        <p class="service-anchor-title">RapidFire-MS High Throughput <br>Functional Assays  </p>
                     </a>
                 </div>
             </div>
@@ -47,83 +41,71 @@
         <div class="service-list">
             <div class="service-wrap" id="asms">
                 <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">ASMS</h3>
+                <h3 class="service-name">Affinity Selection Mass Spectrometry (“ASMS”)  </h3>
                 <div class="service-desc">
-                    Momentum Biotechnologies specializes in high throughput affinity selection mass spectrometry (ASMS) screens using the Automated Ligand Identification System (ALIS). ALIS/ASMS offers several distinct advantages over legacy HTS methods:<br><br>
+                    We specialize in high throughput affinity selection mass spectrometry (“ASMS”) screens using the Auto-mated Ligand Identification System (“ALIS”) on an Agilent 2D-HPLC system interfaced to an Agilent Time-of-Flight MS. <br><br>
+                    ASMS offers several distinct advantages over legacy high throughput screening (“HTS”) methods: <br>
                     <ul>
-                        <li>ALIS/ASMS is binding site agnostic, enabling clients to identify potential leads acting through a variety of mechanisms, including degradation and interruption of protein-protein or protein-oligonucletide interactions.</li>
-                        <li>ALIS/ASMS is compatible with a range of targets. Protein, RNA, and Protein Complexes can be screened without the need for tagging or surface immobilization, ensuring the results are physiologically relevant.</li>
-                        <li>ALIS/ASMS requires very little target (~1mg) to screen hundreds of thousands of potential compounds.</li>
-                        <li>ALIS/ASMS is much faster to set up than other HTS methods like FRET or enzymatic assays, enabling you to identify leads in half the time.</li>
-                        <li>ALIS/ASMS allows compounds to be pooled in wells of 280? (whatever number we want the price expectation to be for) saving clients time and money: 100k test compounds can be screened in a single day.</li>
-                        <li>ALIS/ASMS covers broad chemical space as positive mode electrospray ionization is compatible with 95% of drug-like test compounds.</li>
+                        <li>ASMS is binding site agnostic, enabling clients to identify potential leads acting through a variety of mechanisms, including degradation and disruption of protein-protein or protein-oligonucleotide in-teractions. </li>
+                        <li>ASMS is compatible with a range of targets. Protein, RNA, and Protein Complexes can be screened without the need for tagging or surface immobilization, ensuring the results are physiolog-ically relevant. </li>
+                        <li>ASMS requires very little target (~1mg) to screen hundreds of thousands of potential compounds.</li>
+                        <li>ASMS assay development is limited to buffer optimization and therefore much faster than tradition-al biochemical HTS methods like FRET and enzymatic assays, enabling identification of leads in half the time. </li>
+                        <li>ASMS is much faster to run than other biophysical assays such as SPR, interferometry, DSF, Mesoscale, ITC, and NMR.</li>
+                        <li>ASMS allows compounds to be screened in pools of 250: 100,000 test compounds can be screened in a single day.</li>
+                        <li>ASMS covers broad chemical space as positive mode electrospray ionization is compatible with 95% of drug-like test compounds.</li>
+                        <li>ASMS is immune to false positives resulting from active impurities and breakdown products by identifying the exact compound based on molecular formula. </li>
                     </ul>
-                    Momentum Biotechnologies has extensive experience using ALIS/ASMS screens to study X targets tested against 10^X compounds (cumulatively would be fun because it’s a massive number).<br><br>
-                    In addition to screening our in-house library of XXX compounds or a client’s library, we can arrange access to the Wuxi Apptec library of 300k compounds and the Charles River Laboratories library of 700k compounds. For clients bringing their own library, we have experience in screening macrocyclic peptide libraries in addition to our expertise in small molecules.<br><br>
-                    Following ALIS/ASMS primary, pooled screens:<br><br>
+                    We have extensive experience using ASMS screens to study hundreds of targets tested against tens of millions of compounds. <br><br>
+                    We can screen third-party and internal client libraries. While we typically screen Rule of Five compliant chemical libraries, we can also screen macrocyclics. We offer target QC on proteins and RNA to ensure accurate screens. <br><br>
+                    Following ASMS primary, pooled screens: <br>
                     <ul>
-                        <li>We recommend clients run a follow up screen to confirm hits in single wells.</li>
-                        <li>We can also rank order your hits by competitive binding, give quantitative information on target occupancy, and determine binding affinity for SAR studies.</li>
-                        <li>For protein targets, we can determine the compound binding site with hydrogen deuterium exchange.</li>
-                        <li>We can perform virtual hit expansion, ensuring no chemical space goes unexplored to deliver the best lead to our clients.  Same day data delivery may be possible with courier delivered samples to our Billerica location only a half hour from downtown Boston/Cambridge.</li>
+                        <li>We recommend clients run a secondary screen to confirm hits in small pools of one to five compounds.</li>
+                        <li>We can also rank order hits by competitive binding, give quantitative information on target occupancy, and determine binding affinity for SAR studies. </li>
                     </ul>
+                    Next day data delivery may be possible with couriered samples to our Billerica location, which is only a half hour outside of Cambridge.
                 </div>
             </div>
             <div class="service-wrap" id="covalent_binding_assay">
                 <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">Covalent Binding Assay</h3>
+                <h3 class="service-name">Covalent Binding Assay </h3>
                 <div class="service-desc">
-                Momentum Biotechnologies developed a covalent binding assay that enables screening small molecules capable of covalently modifying protein targets.<br>
-                <ul>
-                    <li>Throughput?</li>
-                    <li>Number of targets?</li>
-                    <li>Eventual access to a covalent (electrophile) library?</li>
-                    <li>RapidFire coupled to QTOF (which one?)</li>
-                </ul>
+                    Our team developed a covalent binding assay that enables screening of electrophilic test compounds that irreversibly modify protein targets on a RapidFire coupled to an Agilent Quadrupole Time-of-Flight MS. <br>
+                    <ul>
+                        <li>We have the capacity to screen up to 4,500 compounds per day from internal client libraries, a 12,000 compound electrophile library from Wuxi AppTec, or a third-party library. </li>
+                    </ul>
                 </div>
             </div>
             <div class="service-wrap" id="icp_ms">
                 <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">ICP-MS</h3>
+                <h3 class="service-name">Inductively Coupled Plasma Mass Spectrometry (ICP-MS) </h3>
                 <div class="service-desc">
-                Momentum Biotechnologies offers ICP-MS analysis for several applications depending on the needs of your specific program. In addition to routine testing for trace metals in CGT and biologics growth media, Momentum has also used ICP-MS to quantify biomarkers of response for rare diseases (Ex. Wilson’s Disease) and to optimize lipid nanoparticles using a metal biomarker model system.<br><br>
-                We understand that ICP-MS results are crucial to go-forward decision making in CGT and biologics development, so we strive to turn around data as fast as possible. Same day data delivery may be possible with courier delivered samples to our Billerica location only a half hour from downtown Boston/Cambridge.<br><br>
-                Agilent 7500 ICP-MS + new ICP-MS<br><br>
-                List how many metals we can multiplex?
+                    We offer ICP-MS analysis for several applications depending on the needs of our clients’ specific programs. We have used ICP-MS to test for trace metals in CGT and biologics media, perform pharmacokinetic stud-ies on metallodrugs, quantify biomarkers for rare diseases (Ex. Wilson’s Disease), and characterize zinc finger proteins. <br>
+                    <ul>
+                        <li>We understand that ICP-MS results are crucial to go-forward decision making in CGT and biologics de-velopment, so we strive to turn around data as fast as possible. We can analyze hundreds of samples daily. </li>
+                    </ul>
+                    Next day data delivery may be possible with couriered samples to our Billerica location, which is only a half hour outside of Cambridge.
                 </div>
             </div>
-            <div class="service-wrap" id="lnp_characterization">
+            <div class="service-wrap" id="ptency_assays">
                 <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">LNP Characterization</h3>
+                <h3 class="service-name">Analyte/Biomarker Quantification and Potency Assays</h3>
                 <div class="service-desc">
-                Momentum Biotechnologies offers a suite of lipid nanoparticle characterization services and is eager to work with clients on assay development to meet their evolving needs in a rapidly advancing field. Our expert team is ready to work alongside you to figure out what assays best suite your specific development project. <br><br>
-                Characterization services include:<br>
-                <ul>
-                    <li>Lipid Identification and Quantification</li>
-                    <li>Lipid Breakdown Products Identification and Quantification</li>
-                    <li>Lipid Purity Analysis</li>
-                    <li>Lipid Nucleic Acid Covalent Adducts</li>
-                    <li>Lipid Biodistribution and in vivo Quantification</li>
-                    <li>Nucleic Acid Encapsulation Efficiency • Nucleic Acid Integrity Analysis</li>
-                    <li>Polydispersity and Intact Mass</li>
-                </ul>
-                Could any characterization work have same day delivery?
+                    We offer assay development and analysis for small molecule quantification on both HPLC-MS and Rapid-Fire-MS. We can perform biomarker quantification, potency assays, and pharmacokinetic studies depend-ing on your need. <br>
+                    <ul>
+                        <li>We have extensive experience measuring lipids, amino acids, sugars, and metabolites in lysosomal storage diseases such as Gaucher, Fabry, Hunter, Metachromatic leukodystrophy (MLD), and Muco-polysaccharidoses (MPS); urea cycle disorders such as Ornithine transcarbamylase deficiency (OTC) and Citrullinemia; Phenylketonuria (PKU); and Hypertryptophanemia. </li>
+                    </ul>
+                    Next day data delivery may be possible with couriered samples to our Billerica location, which is only a half hour outside of Cambridge.
                 </div>
             </div>
-            <div class="service-wrap" id="small_molecule_biomarker_quantification">
+            <div class="service-wrap" id="rapidfire-ms">
                 <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">Small Molecule Biomarker Quantification</h3>
+                <h3 class="service-name">RapidFire-MS High Throughput Functional Assays  </h3>
                 <div class="service-desc">
-                Momentum Biotechnologies offers a suite of viral vector characterization services to help our clients optimize and standardize their delivery vehicles. We understand most assays don’t fit off-the-shelf, so we are ready to tailor assays to best serve your specific development project. <br><br>
-                Characterization services include:<br>
-                <ul>
-                    <li>Vector Serotype Identification</li>
-                    <li>AAV Capsid Protein Ratio</li>
-                    <li>Capsid Protein Identification and Quantification</li>
-                    <li>Capsid Protein Post Translational Modification Quantification</li>
-                    <li>Empty: Full Capsid with Cargo Integrity Analysis</li>
-                    <li>Host Cell Protein and DNA Impurities Analysis</li>
-                </ul>
+                    We provide functional cell-based and biochemical screening, and have the capacity to generate upwards of 20,000 datapoints per day.<br>
+                    <ul>
+                        <li>As the inventors of the RapidFire-MS platform, we have 20 years of experience in RapidFire analytical method development and biochemical assay development. </li>
+                    </ul>
+                    Next day data delivery may be possible with couriered samples to our Billerica location, which is only a half hour outside of Cambridge.
                 </div>
             </div>
             <div class="service-wrap" id="protein_quantification">

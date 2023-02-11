@@ -17,9 +17,6 @@
             <a class="menu-link" href="<?= base_url('/about')?>">about</a>
         </div>
         <div class="menu-link-wrap">
-            <a class="menu-link" href="<?= base_url('/media-kit')?>">media kit</a>
-        </div>
-        <div class="menu-link-wrap">
             <a class="menu-link" href="<?= base_url('/management')?>">management</a>
         </div>
         <div class="menu-link-wrap">

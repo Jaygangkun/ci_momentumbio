@@ -1,6 +1,6 @@
 <div class="page-content">
     <div class="container-lg bg-gray">
-        <div class="px-50 py-50">
+        <div class="contact-page-form-wrap">
             <h1 class="">Contact</h1>
             <div class="contact-wrap">
                 <div class="contact-wrap-left">
@@ -11,22 +11,33 @@
                 <div class="contact-wrap-right">
                     <div class="contact-form">
                         <p class="fs-14 my-0 pb-20">Fill out the form to get in touch with our team</p>
-                        <div class="mt-20">
-                            <div class="form-input">
+                        <div class="mt-20 form-input-row">
+                            <div class="form-input form-input-col-first-name">
                                 <input type="text" placeholder="First name">
                             </div>
-                            <div class="form-input">
+                            <div class="form-input form-input-col-last-name">
                                 <input type="text" placeholder="Last name">
                             </div>
-                            <div class="form-input">
+                            <div class="form-input form-input-col-email">
                                 <input type="text" placeholder="Email">
                             </div>
-                            <div class="form-input">
+                            <div class="form-input form-input-col-interest-area">
                                 <select>
                                     <option value="">Interest area</option>
                                 </select>
                             </div>
-                            <button class="mt-20">submit</button>
+                            <div class="form-input form-input-col-company-name">
+                                <select>
+                                    <option value="">Company name</option>
+                                    <option value="">Affinity-Selection Mass Spectrometry (ASMS)</option>
+                                    <option value="">Covalent Binding Assay</option>
+                                    <option value="">Inductively Coupled Plasma Mass Spectrometry (ICP-MS)</option>
+                                    <option value="">Analyte/Biomarker Quantification and Potency Assays</option>
+                                    <option value="">RapidFire-MS High Throughput Functional Assays</option>
+                                    <option value="">Other</option>
+                                </select>
+                            </div>
+                            <button class="mt-20 btn-contact-submit">submit</button>
                         </div>
                     </div>
                     

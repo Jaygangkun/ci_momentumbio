@@ -16,7 +16,7 @@
                     <img class="footer-social-img" src="<?= base_url('/assets/img/icon-rg.png')?>"></img>
                     <img class="footer-social-img" src="<?= base_url('/assets/img/icon-linkedin.png')?>"></img>
                 </div>
-                <p>Media Library</p>
+                <p><a href="<?= base_url('/media-kit')?>">Media Library</a></p>
             </div>
         </div>
     </div>

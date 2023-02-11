@@ -51,11 +51,11 @@
         We may contact you to respond to your inquiry or answer technical questions, to send updates about the Company, or as otherwise necessary to contact you to enforce our User Agreement, applicable national laws, and any agreement we may have with you. For these purposes we may contact you via email or phone.</p>
         <h4>How can you withdraw your consent?</h4>
         <p>
-        If you want us to stop processing your information, including Personal Information, or if you would like to access, correct, amend or delete any of your Personal Information that we have about you, please contact us at: info@momentum.bio or send us mail to: Momentum Biotechnologies, 3 Federal St. Suite 300, Billeri-ca, MA 01821, USA.  </p>
+        If you want us to stop processing your information, including Personal Information, or if you would like to access, correct, amend or delete any of your Personal Information that we have about you, please contact us at: privacy@momentum.bio or send us mail to: Momentum Biotechnologies, 3 Federal St. Suite 300, Billeri-ca, MA 01821, USA.  </p>
         <h4>Privacy policy updates</h4>
         <p>We reserve the right to modify this Privacy Policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon their posting on the Site. If we make material changes to this Privacy Policy, we will notify you <a href="">here</a> that it has been updated. </p>
         <h4>Questions and our contact information</h4>
-        <p>If you have any questions about this Privacy Policy, you are invited to contact us at: info@momentum.bio or send us mail to: Momentum Biotechnologies, 3 Federal St. Suite 300, Billerica, MA 01821, USA.</P>
+        <p>If you have any questions about this Privacy Policy, you are invited to contact us at: privacy@momentum.bio or send us mail to: Momentum Biotechnologies, 3 Federal St. Suite 300, Billerica, MA 01821, USA.</P>
         <p>
             <b>LAST UPDATED:  February 8, 2023</b>
         </p>

@@ -21,14 +21,12 @@
                             <div class="form-input form-input-col-email">
                                 <input type="text" placeholder="Email">
                             </div>
+                            <div class="form-input form-input-col-company">
+                                <input type="text" placeholder="Comapny Name">
+                            </div>
                             <div class="form-input form-input-col-interest-area">
                                 <select>
                                     <option value="">Interest area</option>
-                                </select>
-                            </div>
-                            <div class="form-input form-input-col-company-name">
-                                <select>
-                                    <option value="">Company name</option>
                                     <option value="">Affinity-Selection Mass Spectrometry (ASMS)</option>
                                     <option value="">Covalent Binding Assay</option>
                                     <option value="">Inductively Coupled Plasma Mass Spectrometry (ICP-MS)</option>

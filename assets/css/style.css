@@ -125,7 +125,7 @@ h4 {
 
 p {
     font-size: 11px;
-    line-height: 13px;
+    line-height: 16px;
 }
 
 ul li {
@@ -367,7 +367,7 @@ ul li {
     border-top: 2px solid #B7B7B7;
     text-align: left;
     font-size: 11px;
-    line-height: 13px;
+    line-height: 16px;
 }
 
 .service-desc ul li {
@@ -911,12 +911,12 @@ button {
 
     .form-input-col-first-name,
     .form-input-col-last-name,
-    .form-input-col-interest-area,
-    .form-input-col-company-name {
+    .form-input-col-email,
+    .form-input-col-company {
         width: calc(50% - 10px);
     }
 
-    .form-input-col-email {
+    .form-input-col-interest-area {
         width: 100%;
     }
 
@@ -978,6 +978,10 @@ button {
 
     .video-wrap {
         height: calc(100vh - 250px);
+    }
+
+    .video:before {
+        background: linear-gradient(180deg, #000000 0%, #00000073 40%, #00000000 50%, #00000070 60%, #000000 100%) 0% 0% no-repeat padding-box;
     }
 }
 /* 425px */

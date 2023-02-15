@@ -41,5 +41,27 @@
   include('include/footer.php');
   
   ?>
+<script>
+	function cbResize() {
+		var content_height = window.innerHeight - jQuery('#header').outerHeight() - jQuery('#footer').outerHeight();
+		console.log('window.innerHeight:', window.innerHeight);
+		console.log('header_height:', jQuery('#header').outerHeight());
+		console.log('footer_height:', jQuery('#footer').outerHeight());
+		console.log('content_height:', content_height);
+		jQuery('#page_content_wrap').css('min-height', content_height + 'px');
+
+		<?php
+		if($page == 'home') {
+			?>
+			jQuery('#page_content_wrap').css('height', content_height + 'px');
+			<?php
+		}
+		?>
+	}
+
+	cbResize();
+	jQuery(window).resize(cbResize);
+	
+</script>
 </body>
 </html>

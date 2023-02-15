@@ -1,4 +1,4 @@
-<div class="header" data-aos="fade-in" data-aos-duration="1500">
+<div class="header" data-aos="fade-in" data-aos-duration="1500" id="header">
     <div class="container-lg">
         <div class="header-wrap">
             <a href="<?= base_url('')?>">

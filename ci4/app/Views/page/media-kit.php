@@ -1,6 +1,6 @@
 <div class="page-content">
     <div class="container-lg bg-gray">
-        <div class="py-60 px-40">
+        <div class="media-kit-content-wrap">
             <h1 class="">Media Kit</h1>
             <div class="media-kit-row">
                 <div class="media-kit-wrap">

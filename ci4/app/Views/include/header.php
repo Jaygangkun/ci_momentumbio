@@ -2,8 +2,8 @@
     <div class="container-lg">
         <div class="header-wrap">
             <a href="<?= base_url('')?>">
-                <img class="header-logo-img visible-dark" src="<?= base_url('/assets/img/momentum-logo-white.png')?>">
-                <img class="header-logo-img visible-white" src="<?= base_url('/assets/img/momentum-logo-black.png')?>">
+                <img class="header-logo-img visible-dark" src="<?= base_url('/assets/img/momentum-logo-white.svg')?>">
+                <img class="header-logo-img visible-white" src="<?= base_url('/assets/img/momentum-logo-black.svg')?>">
             </a>
             <span class="nav-hamburger" id="btn_nav_hamburger">
                 <span></span>

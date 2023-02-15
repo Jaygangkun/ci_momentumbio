@@ -5,31 +5,31 @@
             <div class="service-anchor-container">
                 <div class="service-anchor-wrap">
                     <a class="service-anchor-link" href="#asms">
-                        <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
+                        <img class="service-anchor-img" src="<?= base_url('/assets/img/icon-asms.svg')?>">
                         <p class="service-anchor-title">Affinity Selection<br>Mass Spectrometry (“ASMS”)</p>
                     </a>
                 </div>
                 <div class="service-anchor-wrap">
                     <a class="service-anchor-link" href="#covalent_binding_assay">
-                        <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
+                        <img class="service-anchor-img" src="<?= base_url('/assets/img/icon-covalenbond.svg')?>">
                         <p class="service-anchor-title">Covalent Binding<br> Assay</p>
                     </a>
                 </div>
                 <div class="service-anchor-wrap">
                     <a class="service-anchor-link" href="#icp_ms">
-                        <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
+                        <img class="service-anchor-img" src="<?= base_url('/assets/img/icon-icp-ms.svg')?>">
                         <p class="service-anchor-title">Inductively Coupled Plasma<br>Mass Spectrometry (ICP-MS) </p>
                     </a>
                 </div>
                 <div class="service-anchor-wrap">
                     <a class="service-anchor-link" href="#ptency_assays">
-                        <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
+                        <img class="service-anchor-img" src="<?= base_url('/assets/img/icon-smallmolecule.svg')?>">
                         <p class="service-anchor-title">Analyte/Biomarker Quantification <br>and Potency Assays</p>
                     </a>
                 </div>
                 <div class="service-anchor-wrap">
                     <a class="service-anchor-link" href="#rapidfire-ms">
-                        <img class="service-anchor-img" src="<?= base_url('/assets/img/default.png')?>">
+                        <img class="service-anchor-img" src="<?= base_url('/assets/img/icon-rapidfire.svg')?>">
                         <p class="service-anchor-title">RapidFire-MS High Throughput <br>Functional Assays  </p>
                     </a>
                 </div>
@@ -40,7 +40,7 @@
     <div class="container-sm">
         <div class="service-list">
             <div class="service-wrap" id="asms">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                <img class="service-img" src="<?= base_url('/assets/img/icon-asms.svg')?>">
                 <h3 class="service-name">Affinity Selection Mass Spectrometry (“ASMS”)  </h3>
                 <div class="service-desc">
                     We specialize in high throughput affinity selection mass spectrometry (“ASMS”) screens using the Auto-mated Ligand Identification System (“ALIS”) on an Agilent 2D-HPLC system interfaced to an Agilent Time-of-Flight MS. <br><br>
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="service-wrap" id="covalent_binding_assay">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                <img class="service-img" src="<?= base_url('/assets/img/icon-covalenbond.svg')?>">
                 <h3 class="service-name">Covalent Binding Assay </h3>
                 <div class="service-desc">
                     Our team developed a covalent binding assay that enables screening of electrophilic test compounds that irreversibly modify protein targets on a RapidFire coupled to an Agilent Quadrupole Time-of-Flight MS. <br>
@@ -76,7 +76,7 @@
                 </div>
             </div>
             <div class="service-wrap" id="icp_ms">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                <img class="service-img" src="<?= base_url('/assets/img/icon-icp-ms.svg')?>">
                 <h3 class="service-name">Inductively Coupled Plasma Mass Spectrometry (ICP-MS) </h3>
                 <div class="service-desc">
                     We offer ICP-MS analysis for several applications depending on the needs of our clients’ specific programs. We have used ICP-MS to test for trace metals in CGT and biologics media, perform pharmacokinetic stud-ies on metallodrugs, quantify biomarkers for rare diseases (Ex. Wilson’s Disease), and characterize zinc finger proteins. <br>
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class="service-wrap" id="ptency_assays">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                <img class="service-img" src="<?= base_url('/assets/img/icon-smallmolecule.svg')?>">
                 <h3 class="service-name">Analyte/Biomarker Quantification and Potency Assays</h3>
                 <div class="service-desc">
                     We offer assay development and analysis for small molecule quantification on both HPLC-MS and Rapid-Fire-MS. We can perform biomarker quantification, potency assays, and pharmacokinetic studies depend-ing on your need. <br>
@@ -98,7 +98,7 @@
                 </div>
             </div>
             <div class="service-wrap" id="rapidfire-ms">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
+                <img class="service-img" src="<?= base_url('/assets/img/icon-rapidfire.svg')?>">
                 <h3 class="service-name">RapidFire-MS High Throughput Functional Assays  </h3>
                 <div class="service-desc">
                     We provide functional cell-based and biochemical screening, and have the capacity to generate upwards of 20,000 datapoints per day.<br>
@@ -106,15 +106,6 @@
                         <li>As the inventors of the RapidFire-MS platform, we have 20 years of experience in RapidFire analytical method development and biochemical assay development. </li>
                     </ul>
                     Next day data delivery may be possible with couriered samples to our Billerica location, which is only a half hour outside of Cambridge.
-                </div>
-            </div>
-            <div class="service-wrap" id="protein_quantification">
-                <img class="service-img" src="<?= base_url('/assets/img/default.png')?>">
-                <h3 class="service-name">Protein Quantification</h3>
-                <div class="service-desc">
-                Momentum Biotechnologies offers assay development and analysis services for targeted proteomics to enable our clients to quantify biomarkers and confirm action of identified leads.<br><br>
-                Once we decide on instrument list<br><br>
-                Once we decide on what relative or absolute quantification method to use (TMT, synthetic heavy peptides) and whether we can offer immune-purification would be good to list.
                 </div>
             </div>
         </div>

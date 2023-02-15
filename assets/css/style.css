@@ -335,11 +335,24 @@ ul li {
     margin-top: 20px;
 }
 
+.user-wrap .user-name-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.user-wrap .user-name-link:hover {
+    color: #848484;
+}
+
 .user-wrap .user-role,
 .user-wrap .user-category,
 .user-wrap .user-company {
     font-size: 11px;
     line-height: 13px;
+}
+
+.user-wrap .user-role {
+    text-transform: uppercase;
 }
 
 .user-wrap .user-role {
@@ -354,8 +367,8 @@ ul li {
 }
 
 .service-img {
-    width: 60px;
-    height: 60px;
+    width: 150px;
+    /* height: 60px; */
 }
 
 .service-name {
@@ -642,7 +655,8 @@ button {
 }
 
 .service-anchor-img {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    width: 150px;
 }
 
 .service-anchor-title {

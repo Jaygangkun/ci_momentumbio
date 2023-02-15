@@ -27,8 +27,10 @@
                 </p>
             </div>
             <div class="footer-bottom">
-                <p><a href="<?= base_url('/privacy-policy')?>">Privacy Policy</a></p>
-                <p>All Content Copyright <?= date("Y")?></p>
+                <div>
+                    <p><a href="<?= base_url('/privacy-policy')?>">Privacy Policy</a></p>
+                    <p>All Content Copyright <?= date("Y")?></p>
+                </div>
                 <div class="footer-wrap-right">
                     <div class="footer-social-icons">
                         <img class="footer-social-img" src="<?= base_url('/assets/img/icon-rg.png')?>"></img>

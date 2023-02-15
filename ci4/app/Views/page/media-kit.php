@@ -4,36 +4,16 @@
             <h1 class="">Media Kit</h1>
             <div class="media-kit-row">
                 <div class="media-kit-wrap">
-                    <div class="media-kit-img-wrap bg-white">
-                        <img class="media-kit-lockup-img" src="<?= base_url('/assets/img/logo-lockup-black.png')?>">
+                    <div class="media-kit-img-wrap">
+                        <img class="media-kit-lockup-img" src="<?= base_url('/assets/img/momentum-logo-black.svg')?>">
                     </div>
-                    <p class="media-kit-title">logo lockup black</p>
+                    <a class="media-download-link" download href="<?= base_url('/assets/img/LogoLockup_Black.png')?>"><p class="media-kit-title">Logo dark</p></a>
                 </div>
                 <div class="media-kit-wrap">
                     <div class="media-kit-img-wrap bg-black">
-                        <img class="media-kit-lockup-img" src="<?= base_url('/assets/img/logo-lockup-white.png')?>">
+                        <img class="media-kit-lockup-img" src="<?= base_url('/assets/img/momentum-logo-white.svg')?>">
                     </div>
-                    <p class="media-kit-title">logo lockup white</p>
-                </div>
-            </div>
-            <div class="media-kit-row">
-                <div class="media-kit-wrap">
-                    <div class="media-kit-img-wrap bg-white">
-                        <img class="media-kit-mark-img" src="<?= base_url('/assets/img/m-icon-black.png')?>">
-                    </div>                    
-                    <p class="media-kit-title">logo mark black</p>
-                </div>
-                <div class="media-kit-wrap">
-                    <div class="media-kit-img-wrap bg-black">
-                        <img class="media-kit-mark-img" src="<?= base_url('/assets/img/m-icon-white.png')?>">
-                    </div>
-                    <p class="media-kit-title">logo mark white</p>
-                </div>
-                <div class="media-kit-wrap">
-                    <div class="media-kit-img-wrap bg-white">
-                        <img class="media-kit-mark-img" src="<?= base_url('/assets/img/m-icon-yellow.png')?>">
-                    </div>
-                    <p class="media-kit-title">logo mark yellow</p>
+                    <a class="media-download-link" download href="<?= base_url('/assets/img/LogoLockup_White.png')?>"><p class="media-kit-title">Logo light</p></a>
                 </div>
             </div>
         </div>

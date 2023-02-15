@@ -5,7 +5,7 @@
             <div class="contact-wrap">
                 <div class="contact-wrap-left">
                     <div class="embeded-map-wrap">
-                        <iframe class="embeded-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24195.595551644004!2d-73.99982608701175!3d40.708121475222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1675310560715!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="embeded-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2939.5389743932446!2d-71.28283728428522!3d42.5438471314674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3a1fdcfb13601%3A0x884898ce30abe767!2s3%20Federal%20St%20Suite%20300%2C%20Billerica%2C%20MA%2001821!5e0!3m2!1sen!2sus!4v1676424294848!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <div class="contact-wrap-right">
@@ -22,7 +22,7 @@
                                 <input type="text" placeholder="Email">
                             </div>
                             <div class="form-input form-input-col-company">
-                                <input type="text" placeholder="Comapny Name">
+                                <input type="text" placeholder="Company Name">
                             </div>
                             <div class="form-input form-input-col-interest-area">
                                 <select>

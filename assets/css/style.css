@@ -260,6 +260,7 @@ ul li {
 .footer-contact {
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .footer-wrap {
@@ -280,6 +281,11 @@ ul li {
 
 .footer-wrap-left p {
     margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-wrap-right p {
+    margin: 0px;
 }
 
 .footer a {
@@ -300,7 +306,7 @@ ul li {
 .page-content {
     padding-top: 65px;
     padding-bottom: 65px;
-    min-height: calc(100vh - 214px);
+    min-height: calc(100vh - 195px);
     box-sizing: border-box;
 }
 
@@ -605,6 +611,21 @@ button {
     background: linear-gradient(180deg, #000000 0%, #00000073 23%, #00000000 50%, #00000070 77%, #000000 100%) 0% 0% no-repeat padding-box;
 }
 
+.video:after {
+    display:block;
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    /* background-image: radial-gradient(ellipse 39% 84% at center center, transparent, black); */
+    z-index: 1;
+
+    background: #000000;
+    opacity: .4;
+}
+
 .video-wrap .overlay-text {
     color: #ffffff;
     font-size: 24px;
@@ -700,7 +721,7 @@ button {
 }
 
 .media-kit-lockup-img {
-    height: 65px;
+    width: 215px;
 }
 
 .media-kit-mark-img {
@@ -722,6 +743,16 @@ button {
 .footer .mobile-v {
     display: none;
 }
+
+.media-download-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.media-download-link:hover {
+    color: #848484;
+}
+
 
 @media screen and (max-width: 768px) {
     .video-wrap .overlay-text {
@@ -882,7 +913,7 @@ button {
     .page-content {
         padding-top: 30px;
         padding-bottom: 30px;
-        min-height: calc(100vh - 219px);
+        min-height: calc(100vh - 188px);
     }
 
     .management-page .page-content {
@@ -965,6 +996,7 @@ button {
 
     .contact-page .page-content {
         padding-bottom: 10px;
+        padding-top: 15px;
     }
 
     .footer .mobile-v {
@@ -997,6 +1029,20 @@ button {
     .video:before {
         background: linear-gradient(180deg, #000000 0%, #00000073 40%, #00000000 50%, #00000070 60%, #000000 100%) 0% 0% no-repeat padding-box;
     }
+
+    .footer {
+        padding: 10px 0px;
+    }
+
+    .about-page .page-content {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .about-page .page-title {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 }
 /* 425px */
 
@@ -1020,10 +1066,6 @@ button {
 
     .media-kit-img-wrap {
         width: 200px;
-    }
-
-    .media-kit-lockup-img {
-        height: 55px;
     }
 }
 

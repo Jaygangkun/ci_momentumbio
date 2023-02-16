@@ -51,8 +51,9 @@
 		jQuery('#page_content_wrap').css('min-height', content_height + 'px');
 
 		<?php
-		if($page == 'home') {
+		if($page == 'home' || $page == 'about') {
 			?>
+			jQuery('#page_content_wrap').css('height', content_height + 'px');
 			jQuery('#page_content_wrap').css('height', content_height + 'px');
 			<?php
 		}

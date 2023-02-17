@@ -777,6 +777,21 @@ button {
     background-repeat: no-repeat;
 }
 
+.lock-input {
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 500;
+    padding: 14px 45px;
+    border: 1px solid #707070;
+    max-width: 140px;
+}
+
+.lock-page .page-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
     .video-wrap .overlay-text {
         font-size: 20px;

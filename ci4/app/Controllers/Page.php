@@ -9,6 +9,10 @@ class Page extends BaseController
 
     public function index()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'color' => 'dark',
             'page' => 'home'
@@ -19,6 +23,10 @@ class Page extends BaseController
 
     public function about()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'page' => 'about'
         ];
@@ -28,6 +36,10 @@ class Page extends BaseController
 
     public function management()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'page' => 'management'
         ];
@@ -37,6 +49,10 @@ class Page extends BaseController
 
     public function services()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'page' => 'services'
         ];
@@ -46,6 +62,10 @@ class Page extends BaseController
 
     public function laboratory()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'page' => 'laboratory'
         ];
@@ -55,6 +75,10 @@ class Page extends BaseController
 
     public function publications()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'page' => 'publications'
         ];
@@ -64,6 +88,10 @@ class Page extends BaseController
 
     public function news()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'page' => 'news'
         ];
@@ -73,6 +101,10 @@ class Page extends BaseController
 
     public function blog()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'page' => 'blog'
         ];
@@ -82,6 +114,10 @@ class Page extends BaseController
 
     public function contact()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'page' => 'contact'
         ];
@@ -91,6 +127,10 @@ class Page extends BaseController
 
     public function media_kit()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'page' => 'media-kit'
         ];
@@ -100,11 +140,40 @@ class Page extends BaseController
     
     public function privacy_policy()
     {
+        if(!checkUnlockFile()) {
+            return redirect()->to(base_url('/lock'));
+        }
+
         $data = [
             'page' => 'privacy-policy'
         ];
 
         return view('layout', $data);
+    }
+
+    public function lock()
+    {
+        $data = [
+            'page' => 'lock'
+        ];
+
+        deleteUnlockFile();
+
+        return view('layout', $data);
+    }
+
+    public function check_lock()
+    {
+        if(!checkUnlockFile()) {
+            echo json_encode([
+                'login' => false
+            ]);
+        }
+        else {
+            echo json_encode([
+                'login' => true
+            ]);
+        }
     }
 
     public function test()

@@ -26,7 +26,9 @@
 </head>
 <body class="theme-<?= isset($color) && $color == 'dark' ? 'dark' : 'white' ?> <?= empty($page) ? '' : $page.'-page' ?>">
   <?php
-  include('include/header.php');
+  if(!empty($page) && $page != 'lock') {
+	include('include/header.php');
+  }
 
   if(isset($page)) {
 	?>
@@ -38,24 +40,39 @@
 	<?php
   }
   
-  include('include/footer.php');
+  if(!empty($page) && $page != 'lock') {
+	include('include/footer.php');
+  }
   
   ?>
 <script>
 	function cbResize() {
-		var content_height = window.innerHeight - jQuery('#header').outerHeight() - jQuery('#footer').outerHeight();
-		console.log('window.innerHeight:', window.innerHeight);
-		console.log('header_height:', jQuery('#header').outerHeight());
-		console.log('footer_height:', jQuery('#footer').outerHeight());
-		console.log('content_height:', content_height);
-		jQuery('#page_content_wrap').css('min-height', content_height + 'px');
 
 		<?php
-		if($page == 'home' || $page == 'about') {
+		if($page == 'lock') {
 			?>
-			jQuery('#page_content_wrap').css('height', content_height + 'px');
-			jQuery('#page_content_wrap').css('height', content_height + 'px');
+			var content_height = window.innerHeight;
+			console.log('window.innerHeight:', window.innerHeight);
+			console.log('content_height:', content_height);
+			jQuery('#page_content_wrap .page-content').css('min-height', content_height + 'px');
 			<?php
+		}
+		else {
+			?>
+			var content_height = window.innerHeight - jQuery('#header').outerHeight() - jQuery('#footer').outerHeight();
+			console.log('window.innerHeight:', window.innerHeight);
+			console.log('header_height:', jQuery('#header').outerHeight());
+			console.log('footer_height:', jQuery('#footer').outerHeight());
+			console.log('content_height:', content_height);
+			jQuery('#page_content_wrap').css('min-height', content_height + 'px');
+			<?php
+
+			if($page == 'home' || $page == 'about') {
+				?>
+				jQuery('#page_content_wrap').css('height', content_height + 'px');
+				jQuery('#page_content_wrap').css('height', content_height + 'px');
+				<?php
+			}
 		}
 		?>
 	}
@@ -63,6 +80,27 @@
 	cbResize();
 	jQuery(window).resize(cbResize);
 	
+	function idleLogout() {
+		var t;
+		window.onload = resetTimer;
+		window.onmousemove = resetTimer;
+		window.onmousedown = resetTimer;  // catches touchscreen presses as well      
+		window.ontouchstart = resetTimer; // catches touchscreen swipes as well      
+		window.ontouchmove = resetTimer;  // required by some devices 
+		window.onclick = resetTimer;      // catches touchpad clicks as well
+		window.onkeydown = resetTimer;   
+		window.addEventListener('scroll', resetTimer, true); // improved; see comments
+
+		function cbLogout() {
+			location.href = '<?= base_url("/lock")?>';
+		}
+
+		function resetTimer() {
+			clearTimeout(t);
+			t = setTimeout(cbLogout, 1000 * 60 * 15);  // time is in milliseconds
+		}
+	}
+	idleLogout();
 </script>
 </body>
 </html>

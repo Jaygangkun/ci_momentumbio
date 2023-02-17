@@ -42,10 +42,14 @@ $routes->get('/blog', 'Page::blog');
 $routes->get('/contact', 'Page::contact');
 $routes->get('/media-kit', 'Page::media_kit');
 $routes->get('/privacy-policy', 'Page::privacy_policy');
+$routes->get('/lock', 'Page::lock');
+
+$routes->get('/check-lock', 'Page::check_lock');
 
 $routes->get('/test', 'Page::test');
 
 $routes->post('/ajax/contact', 'Ajax::contact');
+$routes->post('/ajax/unlock', 'Ajax::unlock');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

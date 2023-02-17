@@ -28,4 +28,30 @@ class Ajax extends BaseController
         
         echo json_encode($resp);
     }
+
+    public function unlock() {
+        if(empty($_POST['password'])) {
+            echo json_encode([
+                'success' => false,
+                'error' => 'No found password'
+            ]);
+
+            return;
+        }
+
+        if($_POST['password'] != '123') {
+            echo json_encode([
+                'success' => false,
+                'error' => 'Password is incorrect'
+            ]);
+
+            return;
+        }
+
+        createUnlockFile();
+
+        echo json_encode([
+            'success' => true,
+        ]);
+    }
 }

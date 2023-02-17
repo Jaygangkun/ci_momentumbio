@@ -41,3 +41,28 @@ if(!function_exists('sendMail')){
         ];
     }
 }
+
+if(!function_exists('createUnlockFile')){
+    function createUnlockFile(){
+        $fp = fopen(".unlock", "w");
+        fclose($fp);
+    }
+}
+
+if(!function_exists('deleteUnlockFile')){
+    function deleteUnlockFile(){
+        if(file_exists('.unlock')) {
+            unlink('.unlock');
+        }
+    }
+}
+
+if(!function_exists('checkUnlockFile')){
+    function checkUnlockFile(){
+        if(file_exists('.unlock')) {
+            return true;
+        }
+        
+        return false;
+    }
+}

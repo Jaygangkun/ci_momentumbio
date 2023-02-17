@@ -1,4 +1,4 @@
-<div class="footer" data-aos="fade-in" data-aos-duration="1500" data-aos-anchor="#page_content_wrap" data-aos-anchor-placement="bottom-bottom" id="footer">
+<div class="footer" id="footer">
     <div class="container-lg">
         <div class="footer-wrap desktop-v">
             <div class="footer-wrap-left">

@@ -4,8 +4,7 @@
             <h1 class="">Contact</h1>
             <div class="contact-wrap">
                 <div class="contact-wrap-left">
-                    <div class="embeded-map-wrap">
-                        <iframe class="embeded-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2939.5389743932446!2d-71.28283728428522!3d42.5438471314674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3a1fdcfb13601%3A0x884898ce30abe767!2s3%20Federal%20St%20Suite%20300%2C%20Billerica%2C%20MA%2001821!5e0!3m2!1sen!2sus!4v1676424294848!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="map-img-wrap" style="background-image:url(<?= base_url('/assets/img/momentum_map.png')?>)">
                     </div>
                 </div>
                 <div class="contact-wrap-right">
@@ -13,29 +12,29 @@
                         <p class="fs-14 my-0 pb-20">Fill out the form to get in touch with our team</p>
                         <div class="mt-20 form-input-row">
                             <div class="form-input form-input-col-first-name">
-                                <input type="text" placeholder="First name">
+                                <input type="text" id="first_name" placeholder="First name">
                             </div>
                             <div class="form-input form-input-col-last-name">
-                                <input type="text" placeholder="Last name">
+                                <input type="text" id="last_name" placeholder="Last name">
                             </div>
                             <div class="form-input form-input-col-email">
-                                <input type="text" placeholder="Email">
+                                <input type="text" id="email" placeholder="Email">
                             </div>
                             <div class="form-input form-input-col-company">
-                                <input type="text" placeholder="Company Name">
+                                <input type="text" id="company" placeholder="Company Name">
                             </div>
                             <div class="form-input form-input-col-interest-area">
-                                <select>
+                                <select id="interest_area">
                                     <option value="">Interest area</option>
-                                    <option value="">Affinity-Selection Mass Spectrometry (ASMS)</option>
-                                    <option value="">Covalent Binding Assay</option>
-                                    <option value="">Inductively Coupled Plasma Mass Spectrometry (ICP-MS)</option>
-                                    <option value="">Analyte/Biomarker Quantification and Potency Assays</option>
-                                    <option value="">RapidFire-MS High Throughput Functional Assays</option>
-                                    <option value="">Other</option>
+                                    <option value="Affinity-Selection Mass Spectrometry (ASMS)">Affinity-Selection Mass Spectrometry (ASMS)</option>
+                                    <option value="Covalent Binding Assay">Covalent Binding Assay</option>
+                                    <option value="Inductively Coupled Plasma Mass Spectrometry (ICP-MS)">Inductively Coupled Plasma Mass Spectrometry (ICP-MS)</option>
+                                    <option value="Analyte/Biomarker Quantification and Potency Assays">Analyte/Biomarker Quantification and Potency Assays</option>
+                                    <option value="RapidFire-MS High Throughput Functional Assays">RapidFire-MS High Throughput Functional Assays</option>
+                                    <option value="Other">Other</option>
                                 </select>
                             </div>
-                            <button class="mt-20 btn-contact-submit">submit</button>
+                            <button class="mt-20 btn-contact-submit" id="btn_submit">submit</button>
                         </div>
                     </div>
                     
@@ -44,3 +43,4 @@
         </div>
     </div>
 </div>
+<script src="<?= base_url('/assets/js/pages/contact.js')?>"></script>

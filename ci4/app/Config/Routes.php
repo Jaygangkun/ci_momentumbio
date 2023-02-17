@@ -35,7 +35,7 @@ $routes->get('/', 'Page::index');
 $routes->get('/about', 'Page::about');
 $routes->get('/management', 'Page::management');
 $routes->get('/services', 'Page::services');
-$routes->get('/platforms', 'Page::platforms');
+$routes->get('/laboratory', 'Page::laboratory');
 $routes->get('/publications', 'Page::publications');
 $routes->get('/news', 'Page::news');
 $routes->get('/blog', 'Page::blog');
@@ -43,6 +43,9 @@ $routes->get('/contact', 'Page::contact');
 $routes->get('/media-kit', 'Page::media_kit');
 $routes->get('/privacy-policy', 'Page::privacy_policy');
 
+$routes->get('/test', 'Page::test');
+
+$routes->post('/ajax/contact', 'Ajax::contact');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

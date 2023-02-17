@@ -44,10 +44,10 @@ class Page extends BaseController
         return view('layout', $data);
     }
 
-    public function platforms()
+    public function laboratory()
     {
         $data = [
-            'page' => 'platforms'
+            'page' => 'laboratory'
         ];
 
         return view('layout', $data);
@@ -105,5 +105,10 @@ class Page extends BaseController
         ];
 
         return view('layout', $data);
+    }
+
+    public function test()
+    {
+        sendMail('jaygangkun@hotmail.com', 'asd', 'test body');
     }
 }

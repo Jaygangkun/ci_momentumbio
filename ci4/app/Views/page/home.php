@@ -5,6 +5,6 @@
                 <source src="<?= base_url('/assets/video/home.mov')?>" type="video/mp4">
             </video>
         </div>
-        <p class="overlay-text invisible">We are a leading contract research organization focused on providing high-throughput screening discoveries and analytical characterization services to biopharmaceutical clients globally.</p>
+        <p class="overlay-text invisible">We are a leading CRO focused on providing mass spectrometry-based native detection technologies for lead discovery and the quantification of difficult targets to biopharmaceutical clients globally.</p>
     </div>
 </div>

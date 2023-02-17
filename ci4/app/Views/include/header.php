@@ -1,4 +1,4 @@
-<div class="header" data-aos="fade-in" data-aos-duration="1500" id="header">
+<div class="header"id="header">
     <div class="container-lg">
         <div class="header-wrap">
             <a href="<?= base_url('')?>">
@@ -23,7 +23,7 @@
             <a class="menu-link" href="<?= base_url('/services')?>">services</a>
         </div>
         <div class="menu-link-wrap">
-            <a class="menu-link" href="<?= base_url('/platforms')?>">platforms</a>
+            <a class="menu-link" href="<?= base_url('/laboratory')?>">laboratory</a>
         </div>
         <div class="menu-link-wrap">
             <a class="menu-link" href="<?= base_url('/content/publications')?>">publications</a>

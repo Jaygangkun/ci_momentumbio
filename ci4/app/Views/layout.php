@@ -20,7 +20,7 @@
 	<script src="<?= base_url('/assets/js/aos.js')?>"></script>
 
 	<script type="text/javascript">
-		var base_url = "<?php echo base_url()?>";
+		var baseURL = "<?php echo base_url()?>";
 	</script>
 	<script src="<?= base_url('/assets/js/global.js')?>"></script>
 </head>
@@ -30,7 +30,7 @@
 
   if(isset($page)) {
 	?>
-	<div id="page_content_wrap" data-aos="fade-in" data-aos-duration="1500">
+	<div id="page_content_wrap">
 		<?php
 			include('page/'.$page.'.php');
 		?>

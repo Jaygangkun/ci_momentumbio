@@ -43,13 +43,13 @@
                 <img class="service-img" src="<?= base_url('/assets/img/icon-asms.svg')?>">
                 <h3 class="service-name">Affinity Selection Mass Spectrometry (“ASMS”)  </h3>
                 <div class="service-desc">
-                    We specialize in high throughput affinity selection mass spectrometry (“ASMS”) screens using the Auto-mated Ligand Identification System (“ALIS”) on an Agilent 2D-HPLC system interfaced to an Agilent Time-of-Flight MS. <br><br>
+                    We specialize in high throughput affinity selection mass spectrometry (“ASMS”) screens using the Automated Ligand Identification System (“ALIS”) on an Agilent 2D-HPLC system interfaced to an Agilent Time-of-Flight MS. <br><br>
                     ASMS offers several distinct advantages over legacy high throughput screening (“HTS”) methods: <br>
                     <ul>
-                        <li>ASMS is binding site agnostic, enabling clients to identify potential leads acting through a variety of mechanisms, including degradation and disruption of protein-protein or protein-oligonucleotide in-teractions. </li>
-                        <li>ASMS is compatible with a range of targets. Protein, RNA, and Protein Complexes can be screened without the need for tagging or surface immobilization, ensuring the results are physiolog-ically relevant. </li>
+                        <li>ASMS is binding site agnostic, enabling clients to identify potential leads acting through a variety of mechanisms, including degradation and disruption of protein-protein or protein-oligonucleotide interactions. </li>
+                        <li>ASMS is compatible with a range of targets. Protein, RNA, and Protein Complexes can be screened without the need for tagging or surface immobilization, ensuring the results are physiologically relevant. </li>
                         <li>ASMS requires very little target (~1mg) to screen hundreds of thousands of potential compounds.</li>
-                        <li>ASMS assay development is limited to buffer optimization and therefore much faster than tradition-al biochemical HTS methods like FRET and enzymatic assays, enabling identification of leads in half the time. </li>
+                        <li>ASMS assay development is limited to buffer optimization and therefore much faster than traditional biochemical HTS methods like FRET and enzymatic assays, enabling identification of leads in half the time. </li>
                         <li>ASMS is much faster to run than other biophysical assays such as SPR, interferometry, DSF, Mesoscale, ITC, and NMR.</li>
                         <li>ASMS allows compounds to be screened in pools of 250: 100,000 test compounds can be screened in a single day.</li>
                         <li>ASMS covers broad chemical space as positive mode electrospray ionization is compatible with 95% of drug-like test compounds.</li>
@@ -79,9 +79,9 @@
                 <img class="service-img" src="<?= base_url('/assets/img/icon-icp-ms.svg')?>">
                 <h3 class="service-name">Inductively Coupled Plasma Mass Spectrometry (ICP-MS) </h3>
                 <div class="service-desc">
-                    We offer ICP-MS analysis for several applications depending on the needs of our clients’ specific programs. We have used ICP-MS to test for trace metals in CGT and biologics media, perform pharmacokinetic stud-ies on metallodrugs, quantify biomarkers for rare diseases (Ex. Wilson’s Disease), and characterize zinc finger proteins. <br>
+                    We offer ICP-MS analysis for several applications depending on the needs of our clients’ specific programs. We have used ICP-MS to test for trace metals in CGT and biologics media, perform pharmacokinetic studies on metallodrugs, quantify biomarkers for rare diseases (Ex. Wilson’s Disease), and characterize zinc finger proteins. <br>
                     <ul>
-                        <li>We understand that ICP-MS results are crucial to go-forward decision making in CGT and biologics de-velopment, so we strive to turn around data as fast as possible. We can analyze hundreds of samples daily. </li>
+                        <li>We understand that ICP-MS results are crucial to go-forward decision making in CGT and biologics development, so we strive to turn around data as fast as possible. We can analyze hundreds of samples daily. </li>
                     </ul>
                     Next day data delivery may be possible with couriered samples to our Billerica location, which is only a half hour outside of Cambridge.
                 </div>
@@ -90,7 +90,7 @@
                 <img class="service-img" src="<?= base_url('/assets/img/icon-smallmolecule.svg')?>">
                 <h3 class="service-name">Analyte/Biomarker Quantification and Potency Assays</h3>
                 <div class="service-desc">
-                    We offer assay development and analysis for small molecule quantification on both HPLC-MS and Rapid-Fire-MS. We can perform biomarker quantification, potency assays, and pharmacokinetic studies depend-ing on your need. <br>
+                    We offer assay development and analysis for small molecule quantification on both HPLC-MS and Rapid-Fire-MS. We can perform biomarker quantification, potency assays, and pharmacokinetic studies depending on your need. <br>
                     <ul>
                         <li>We have extensive experience measuring lipids, amino acids, sugars, and metabolites in lysosomal storage diseases such as Gaucher, Fabry, Hunter, Metachromatic leukodystrophy (MLD), and Muco-polysaccharidoses (MPS); urea cycle disorders such as Ornithine transcarbamylase deficiency (OTC) and Citrullinemia; Phenylketonuria (PKU); and Hypertryptophanemia. </li>
                     </ul>

@@ -784,6 +784,7 @@ button {
     padding: 14px 45px;
     border: 1px solid #707070;
     max-width: 140px;
+    text-align: center;
 }
 
 .lock-page .page-content {
@@ -891,7 +892,7 @@ button {
 }
 /* 768px */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 428px) {
     .video-wrap .overlay-text {
         font-size: 15px;
         line-height: 1.2;
@@ -1102,8 +1103,8 @@ button {
     }
 
     p {
-        font-size: 11px;
-        line-height: 13px;
+        font-size: 12px;
+        line-height: 15px;
     }
 
     .footer-contact {

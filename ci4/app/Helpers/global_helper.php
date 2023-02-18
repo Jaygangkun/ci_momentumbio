@@ -42,24 +42,61 @@ if(!function_exists('sendMail')){
     }
 }
 
+if(!function_exists('slugify')){
+    function slugify($text, $divider = '-'){
+        // replace non letter or digits by divider
+        $text = preg_replace('~[^\pL\d]+~u', $divider, $text);
+
+        // transliterate
+        $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
+
+        // remove unwanted characters
+        $text = preg_replace('~[^-\w]+~', '', $text);
+
+        // trim
+        $text = trim($text, $divider);
+
+        // remove duplicate divider
+        $text = preg_replace('~-+~', $divider, $text);
+
+        // lowercase
+        $text = strtolower($text);
+
+        if (empty($text)) {
+            return 'n-a';
+        }
+
+        return $text;
+    }
+}
+
+if(!function_exists('getUnlockFileName')){
+    function getUnlockFileName(){
+        // $browser = $_SERVER['HTTP_USER_AGENT'];
+        $ip = $_SERVER['REMOTE_ADDR'];
+
+        return 'unlocks/'.slugify($ip).".unlock";
+    }
+}
+
 if(!function_exists('createUnlockFile')){
-    function createUnlockFile(){
-        $fp = fopen(".unlock", "w");
+    function createUnlockFile(){        
+        $fp = fopen(getUnlockFileName(), "w");
         fclose($fp);
     }
 }
 
 if(!function_exists('deleteUnlockFile')){
     function deleteUnlockFile(){
-        if(file_exists('.unlock')) {
-            unlink('.unlock');
+        if(file_exists(getUnlockFileName())) {
+            unlink(getUnlockFileName());
         }
     }
 }
 
 if(!function_exists('checkUnlockFile')){
     function checkUnlockFile(){
-        if(file_exists('.unlock')) {
+        if(file_exists(getUnlockFileName())) {
             return true;
         }
         

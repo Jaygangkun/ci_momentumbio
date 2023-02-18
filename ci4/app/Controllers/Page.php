@@ -165,14 +165,10 @@ class Page extends BaseController
     public function check_lock()
     {
         if(!checkUnlockFile()) {
-            echo json_encode([
-                'login' => false
-            ]);
+            echo 'false';
         }
         else {
-            echo json_encode([
-                'login' => true
-            ]);
+            echo 'true';
         }
     }
 

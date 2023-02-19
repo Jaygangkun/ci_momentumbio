@@ -25,6 +25,12 @@
                 <p class="user-role">Application Development</p>
                 <p class="user-category">Vice President</p>
             </div>
+            <div class="user-wrap">
+                <a href="https://www.linkedin.com/in/wendy-picariello-59716724/" target="_blank" class="user-img-link"><img class="user-img" src="<?= base_url('/assets/img/profile-wendy.jpg')?>"></img></a>
+                <a href="https://www.linkedin.com/in/wendy-picariello-59716724/" target="_blank" class="user-name-link"><p class="user-name">Wendy Picariello</p></a>
+                <p class="user-role">OPERATIONS</p>
+                <p class="user-category">VP Operations</p>
+            </div>
         </div>
     </div>
 </div>

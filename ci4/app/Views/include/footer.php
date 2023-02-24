@@ -14,7 +14,7 @@
             <div class="footer-wrap-right">
                 <div class="footer-social-icons">
                     <img class="footer-social-img" src="<?= base_url('/assets/img/icon-rg.png')?>"></img>
-                    <img class="footer-social-img" src="<?= base_url('/assets/img/icon-linkedin.png')?>"></img>
+                    <a href="https://www.linkedin.com/company/momentumbio/" target="__blank"><img class="footer-social-img" src="<?= base_url('/assets/img/icon-linkedin.png')?>"></img></a>
                 </div>
                 <p><a href="<?= base_url('/media-kit')?>">Media Library</a></p>
             </div>
@@ -34,7 +34,7 @@
                 <div class="footer-wrap-right">
                     <div class="footer-social-icons">
                         <img class="footer-social-img" src="<?= base_url('/assets/img/icon-rg.png')?>"></img>
-                        <img class="footer-social-img" src="<?= base_url('/assets/img/icon-linkedin.png')?>"></img>
+                        <a href="https://www.linkedin.com/company/momentumbio/" target="__blank"><img class="footer-social-img" src="<?= base_url('/assets/img/icon-linkedin.png')?>"></img></a>
                     </div>
                     <p><a href="<?= base_url('/media-kit')?>">Media Library</a></p>
                 </div>

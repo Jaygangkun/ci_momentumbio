@@ -1,4 +1,4 @@
-<div class="header"id="header">
+<div class="header" id="header">
     <div class="container-lg">
         <div class="header-wrap">
             <a href="<?= base_url('')?>">

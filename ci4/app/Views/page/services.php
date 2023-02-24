@@ -6,7 +6,7 @@
                 <div class="service-anchor-wrap">
                     <a class="service-anchor-link" href="#asms">
                         <img class="service-anchor-img" src="<?= base_url('/assets/img/icon-asms.svg')?>">
-                        <p class="service-anchor-title">Affinity Selection<br>Mass Spectrometry (“ASMS”)</p>
+                        <p class="service-anchor-title">Affinity Selection<br>Mass Spectrometry (ASMS)</p>
                     </a>
                 </div>
                 <div class="service-anchor-wrap">
@@ -41,28 +41,28 @@
         <div class="service-list">
             <div class="service-wrap" id="asms">
                 <img class="service-img" src="<?= base_url('/assets/img/icon-asms.svg')?>">
-                <h3 class="service-name">Affinity Selection Mass Spectrometry (“ASMS”)  </h3>
+                <h3 class="service-name">Affinity Selection Mass Spectrometry (ASMS)  </h3>
                 <div class="service-desc">
-                    We specialize in high throughput affinity selection mass spectrometry (“ASMS”) screens using the Automated Ligand Identification System (“ALIS”) on an Agilent 2D-HPLC system interfaced to an Agilent Time-of-Flight MS. <br><br>
-                    ASMS offers several distinct advantages over legacy high throughput screening (“HTS”) methods: <br>
+                We specialize in high throughput affinity selection mass spectrometry (ASMS) screens using the Automated Ligand Identification System (ALIS) on an Agilent 2D-HPLC system interfaced to an Agilent Time-of-Flight MS.<br><br>
+                ASMS offers several distinct advantages over legacy high throughput screening (HTS) methods:<br>
                     <ul>
-                        <li>ASMS is binding site agnostic, enabling clients to identify potential leads acting through a variety of mechanisms, including degradation and disruption of protein-protein or protein-oligonucleotide interactions. </li>
-                        <li>ASMS is compatible with a range of targets. Protein, RNA, and Protein Complexes can be screened without the need for tagging or surface immobilization, ensuring the results are physiologically relevant. </li>
+                        <li>ASMS is binding site agnostic, enabling clients to identify potential leads acting through a variety of mechanisms, including degradation and disruption of protein-protein or protein-oligonucleotide interactions.</li>
+                        <li>ASMS is compatible with a range of targets. Protein, RNA, and Protein Complexes can be screened without the need for tagging or surface immobilization, ensuring the results are physiologically relevant.</li>
                         <li>ASMS requires very little target (~1mg) to screen hundreds of thousands of potential compounds.</li>
-                        <li>ASMS assay development is limited to buffer optimization and therefore much faster than traditional biochemical HTS methods like FRET and enzymatic assays, enabling identification of leads in half the time. </li>
+                        <li>ASMS assay development is limited to buffer optimization and therefore much faster than traditional biochemical HTS methods like FRET and enzymatic assays, enabling identification of leads in half the time.</li>
                         <li>ASMS is much faster to run than other biophysical assays such as SPR, interferometry, DSF, Mesoscale, ITC, and NMR.</li>
                         <li>ASMS allows compounds to be screened in pools of 250: 100,000 test compounds can be screened in a single day.</li>
                         <li>ASMS covers broad chemical space as positive mode electrospray ionization is compatible with 95% of drug-like test compounds.</li>
-                        <li>ASMS is immune to false positives resulting from active impurities and breakdown products by identifying the exact compound based on molecular formula. </li>
+                        <li>ASMS is immune to false positives resulting from active impurities and breakdown products by identifying the exact compound based on molecular formula.</li>
                     </ul>
-                    We have extensive experience using ASMS screens to study hundreds of targets tested against tens of millions of compounds. <br><br>
-                    We can screen third-party and internal client libraries. While we typically screen Rule of Five compliant chemical libraries, we can also screen macrocyclics. We offer target QC on proteins and RNA to ensure accurate screens. <br><br>
-                    Following ASMS primary, pooled screens: <br>
+                    We have extensive experience using ASMS screens to study hundreds of targets tested against tens of millions of compounds.<br><br>
+                    We can our in-house library, third-party libraries, and internal client libraries. While we typically screen Rule of Five compliant chemical libraries, we can also screen macrocyclics. We offer target QC on proteins and RNA to ensure accurate screens.<br><br>
+                    Following ASMS primary, pooled screens:<br>
                     <ul>
                         <li>We recommend clients run a secondary screen to confirm hits in small pools of one to five compounds.</li>
-                        <li>We can also rank order hits by competitive binding, give quantitative information on target occupancy, and determine binding affinity for SAR studies. </li>
+                        <li>We can also rank order hits by competitive binding, give quantitative information on target occupancy, and determine binding affinity for Structure-Activity Relationship (SAR) studies.</li>
                     </ul>
-                    Next day data delivery may be possible with couriered samples to our Billerica location, which is only a half hour outside of Cambridge.
+                    Next day data delivery may be possible with couriered samples to our Billerica location.
                 </div>
             </div>
             <div class="service-wrap" id="covalent_binding_assay">
@@ -83,7 +83,7 @@
                     <ul>
                         <li>We understand that ICP-MS results are crucial to go-forward decision making in CGT and biologics development, so we strive to turn around data as fast as possible. We can analyze hundreds of samples daily. </li>
                     </ul>
-                    Next day data delivery may be possible with couriered samples to our Billerica location, which is only a half hour outside of Cambridge.
+                    Next day data delivery may be possible with couriered samples to our Billerica location.
                 </div>
             </div>
             <div class="service-wrap" id="ptency_assays">
@@ -94,7 +94,7 @@
                     <ul>
                         <li>We have extensive experience measuring lipids, amino acids, sugars, and metabolites in lysosomal storage diseases such as Gaucher, Fabry, Hunter, Metachromatic leukodystrophy (MLD), and Muco-polysaccharidoses (MPS); urea cycle disorders such as Ornithine transcarbamylase deficiency (OTC) and Citrullinemia; Phenylketonuria (PKU); and Hypertryptophanemia. </li>
                     </ul>
-                    Next day data delivery may be possible with couriered samples to our Billerica location, which is only a half hour outside of Cambridge.
+                    Next day data delivery may be possible with couriered samples to our Billerica location.
                 </div>
             </div>
             <div class="service-wrap" id="rapidfire-ms">
@@ -105,7 +105,7 @@
                     <ul>
                         <li>As the inventors of the RapidFire-MS platform, we have 20 years of experience in RapidFire analytical method development and biochemical assay development. </li>
                     </ul>
-                    Next day data delivery may be possible with couriered samples to our Billerica location, which is only a half hour outside of Cambridge.
+                    Next day data delivery may be possible with couriered samples to our Billerica location.
                 </div>
             </div>
         </div>

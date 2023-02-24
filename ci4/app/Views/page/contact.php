@@ -9,7 +9,6 @@
                 </div>
                 <div class="contact-wrap-right">
                     <div class="contact-form">
-                        <p class="fs-14 my-0 pb-20">Fill out the form to get in touch with our team</p>
                         <div class="mt-20 form-input-row">
                             <div class="form-input form-input-col-first-name">
                                 <input type="text" id="first_name" placeholder="First name">
@@ -33,6 +32,9 @@
                                     <option value="RapidFire-MS High Throughput Functional Assays">RapidFire-MS High Throughput Functional Assays</option>
                                     <option value="Other">Other</option>
                                 </select>
+                            </div>
+                            <div class="form-input form-input-col-additional">
+                                <textarea id="additional" style="resize: none" placeholder="Additional Information About Your Project"></textarea>
                             </div>
                             <button class="mt-20 btn-contact-submit" id="btn_submit">submit</button>
                         </div>

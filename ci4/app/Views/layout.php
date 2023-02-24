@@ -13,11 +13,10 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" href="/assets/css/aos.css">
 	<link rel="stylesheet" href="/assets/css/style.css">
 	<!-- jQuery -->
 	<script src="<?= base_url('/assets/js/jquery-3.6.0.min.js')?>"></script>
-	<script src="<?= base_url('/assets/js/aos.js')?>"></script>
+	<script src="<?= base_url('/assets/js/jquery.sticky.js')?>"></script>
 
 	<script type="text/javascript">
 		var baseURL = "<?php echo base_url()?>";
@@ -101,6 +100,11 @@
 		}
 	}
 	idleLogout();
+
+	if(jQuery('#header').length > 0) {
+		jQuery("#header").sticky({topSpacing:0});
+	}
+	
 </script>
 </body>
 </html>

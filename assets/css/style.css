@@ -323,8 +323,8 @@ ul li {
 }
 
 .user-img {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     background: #F3F3F3;
     display: inline-block;
 }
@@ -400,11 +400,15 @@ ul li {
 }
 
 .platform-wrap {
-    width: calc(33.33% - 10px);
+    width: calc(50% - 5px);
     position: relative;
     height: 0px;
-    padding-top: calc(33.33% - 10px);
+    padding-top: 50%;
     margin-bottom: 10px;
+}
+
+.platform-wrap:first-of-type {
+  width: 100%;
 }
 
 .platform-content {
@@ -417,6 +421,13 @@ ul li {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.platform-content.mobile-version {
+  display: none;
 }
 
 .platform-img {
@@ -478,7 +489,8 @@ ul li {
 }
 
 input,
-select {
+select,
+textarea {
     background: #ffffff;
     border: 0px;
     outline: none;
@@ -487,6 +499,7 @@ select {
     font-weight: 400;
     width: 100%;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 button {
@@ -781,7 +794,7 @@ button {
     font-size: 11px;
     line-height: 14px;
     font-weight: 500;
-    padding: 14px 45px;
+    padding: 14px 0px;
     border: 1px solid #707070;
     max-width: 140px;
     text-align: center;
@@ -791,6 +804,11 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.theme-white .header {
+    background: #ffffff;
+    z-index: 1111 !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -805,15 +823,6 @@ button {
 
     .container-sm {
         width: 75%;
-    }
-
-    .platform-list {
-        display: block;
-    }
-
-    .platform-wrap {
-        margin: auto;
-        margin-bottom: 20px;
     }
 
     .contact-wrap {
@@ -907,9 +916,21 @@ button {
         width: 90%;
     }
 
+    .platform-list {
+      display: block;
+    }
+
+    .platform-content.mobile-version {
+      display: block;
+    }
+
+    .platform-content.desktop-version {
+      display: none;
+    }
+
     .platform-wrap {
-        width: 60%;
-        padding-top: 60%;
+      width: 100%;
+      padding-top: 100%;
     }
 
     .embeded-map-wrap {
@@ -1011,6 +1032,10 @@ button {
     }
 
     .form-input-col-interest-area {
+        width: 100%;
+    }
+
+    .form-input-col-additional {
         width: 100%;
     }
 

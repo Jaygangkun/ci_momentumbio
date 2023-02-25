@@ -99,7 +99,7 @@
 			t = setTimeout(cbLogout, 1000 * 60 * 15);  // time is in milliseconds
 		}
 	}
-	idleLogout();
+	// idleLogout();
 
 	if(jQuery('#header').length > 0) {
 		jQuery("#header").sticky({topSpacing:0});

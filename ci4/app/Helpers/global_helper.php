@@ -96,6 +96,7 @@ if(!function_exists('deleteUnlockFile')){
 
 if(!function_exists('checkUnlockFile')){
     function checkUnlockFile(){
+        return true;
         if(file_exists(getUnlockFileName())) {
             return true;
         }

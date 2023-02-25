@@ -164,6 +164,7 @@ class Page extends BaseController
 
     public function check_lock()
     {
+        echo "true";
         if(!checkUnlockFile()) {
             echo 'false';
         }

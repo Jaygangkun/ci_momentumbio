@@ -811,6 +811,28 @@ button {
     z-index: 1111 !important;
 }
 
+.home-sticky-alert {
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  background: #ffffff;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 98px;
+}
+
+.home-sticky-alert a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.home-sticky-alert a:hover {
+  color: #646363;
+}
+
 @media screen and (max-width: 768px) {
     .video-wrap .overlay-text {
         font-size: 20px;
@@ -897,6 +919,10 @@ button {
 
     .map-img-wrap {
         background-size: 250%;
+    }
+
+    .home-sticky-alert {
+      top: 88px;
     }
 }
 /* 768px */
@@ -1134,6 +1160,10 @@ button {
 
     .footer-contact {
         display: none;
+    }
+
+    .home-sticky-alert {
+      top: 78px;
     }
 }
 /* 425px */

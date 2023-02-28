@@ -1,4 +1,7 @@
 <div class="page-content page-home">
+    <div class="home-sticky-alert">
+      PureHoney Technologies has rebranded to Momentum Biotechnologies. Read more <a href="<?= base_url('/content/purehoney-technologies-announces-rebranding-to-momentum-biotechnologies-to-better-reflect-its-mission/')?>">here</a>.
+    </div>
     <div class="video-wrap">
         <div class="video invisible">
             <video class="" autoplay id="home_video" muted loop playsinline>

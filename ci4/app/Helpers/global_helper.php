@@ -19,7 +19,7 @@ if(!function_exists('sendMail')){
 
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = 'ssl';
-        $mail->SMTPDebug  = 1;  
+        $mail->SMTPDebug  = 0;  
 
         $mail->isHTML();
 

@@ -515,7 +515,11 @@ button {
 }
 
 .contact-form {
-    max-width: 572px;
+    /* max-width: 572px; */
+}
+
+.contact-form textarea {
+    height: 90px;
 }
 
 .embeded-map-wrap {
@@ -755,7 +759,11 @@ button {
 }
 
 .contact-page-form-wrap {
-    padding: 50px;
+    padding: 20px;
+}
+
+.contact-page-form-wrap h1 {
+    margin-top: 0px;
 }
 
 .footer .mobile-v {
@@ -831,6 +839,43 @@ button {
 
 .home-sticky-alert a:hover {
   color: #646363;
+}
+
+.alert {
+    position: fixed;
+    width: 370px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-shadow: 1px 1px 3px #a9a7a7;
+    display: none;
+}
+
+.alert-message {
+    text-align: center;
+}
+
+.alert-foot {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#btn_alert_ok {
+    cursor: pointer;
+    background: #000000;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    padding: 5px 30px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -1165,8 +1210,12 @@ button {
     .home-sticky-alert {
       top: 78px;
     }
+
+    .contact-form textarea {
+        height: 56px;
+    }
 }
-/* 425px */
+/* 428px */
 
 @media screen and (max-width: 320px) {
     .page-content {

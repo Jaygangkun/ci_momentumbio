@@ -1,5 +1,6 @@
 (function($){
     $(document).on('click', '#btn_submit', function() {
+
         if($('#first_name').val() == '') {
             alert('Please Input First Name!');
             $('#first_name').focus();
@@ -38,15 +39,23 @@
                 last_name: $('#last_name').val(),
                 email: $('#email').val(),
                 company: $('#company').val(),
-                interest_area: $('#interest_area').val()
+                interest_area: $('#interest_area').val(),
+                additional: $('#additional').val(),
             },
             dataType: 'json',
             success: function(resp) {
                 if(resp.success) {
-                    alert("Sent email Successfully")
+                    showAlert("<p>Thank you for your interesest in Momentum Biotechnologies.<br>We'll be in touch shortly.</p>", function() {
+                        $('#first_name').val('');
+                        $('#last_name').val('');
+                        $('#email').val('');
+                        $('#company').val('');
+                        $('#interest_area').val('');
+                        $('#additional').val('');
+                    });
                 }
                 else {
-                    alert(resp.error);
+                    showAlert(resp.error);
                 }
             }
         })

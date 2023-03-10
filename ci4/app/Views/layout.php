@@ -44,6 +44,16 @@
   }
   
   ?>
+    <div class="alert" id="alert">
+        <div class="alert-wrap">
+            <div class="alert-message">
+                <p>Thank you for your interesest in Momentum Biotechnologies.<br>We'll be in touch shortly.</p>
+            </div>
+            <div class="alert-foot">
+                <span class="" id="btn_alert_ok">Ok</span>
+            </div>
+        </div>
+    </div>
 <script>
 	function cbResize() {
 

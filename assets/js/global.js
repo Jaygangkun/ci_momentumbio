@@ -28,4 +28,18 @@
             $('body').addClass('menu-open')
         }
     })
+
+    window.showAlert = function(html, fnCallback) {
+        $('#alert .alert-message').html(html);
+        $('#alert').fadeIn();  
+
+        $(document).off('click', '#btn_alert_ok');
+        $(document).on('click', '#btn_alert_ok', function() {
+            $('#alert').fadeOut();
+            
+            if(fnCallback) {
+                fnCallback();
+            }
+        })
+    }
 })(jQuery)

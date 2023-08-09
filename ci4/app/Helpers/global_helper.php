@@ -13,8 +13,8 @@ if(!function_exists('sendMail')){
 
         $mail->IsSMTP();
         $mail->Host = 'mail.momentum.bio';
-        $mail->Username = 'info@momentum.bio';
-        $mail->Password = 'ItUMH3b({cA!';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->Port = 465;
 
         $mail->SMTPAuth = true;
@@ -23,8 +23,8 @@ if(!function_exists('sendMail')){
 
         $mail->isHTML();
 
-        $mail->From = 'info@momentum.bio';
-        $mail->FromName = 'Info MomentumBio';
+        $mail->From = '';
+        $mail->FromName = '';
 
         $mail->Subject = $subject;
         $mail->Body    = $body;
